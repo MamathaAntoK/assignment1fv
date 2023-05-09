@@ -1,0 +1,26 @@
+.login{
+    /* background-image: url('sky-220033__340.jpg'); */
+    background-color:white;
+    /* background-position: fixed;
+    background-size: cover; */
+}
+.in{
+    background-color: rgb(207, 238, 207);
+
+}
+
+#anim{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+
+        animation-delay: 1s;
+ 
+}
+@keyframes moveup{
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+
